@@ -2,7 +2,7 @@ function [Theta1, Theta2] =  NN2(X,y,hidden_layer_size,MaxIter,lambda)
 % NN2 implements a two-layer neural network with variable input, hidden and
 % output layer sizes. NN2 trains this NN for the given sample matrix
 % X and output matrix y. NN2 can be used for multiclass classification.
-% The number of layers is fixed to three.
+% The number of layers is fixed to three including the output layerfo.
 
 % X is the training set with nxm dimensions, where m is
 % the number of training samples and n is the number of features in each
